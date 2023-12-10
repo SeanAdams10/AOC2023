@@ -382,6 +382,7 @@ End=End
         </Configuration>
         <Annotation DisplayMode="0">
           <Name />
+          <AnnotationText>Compress</AnnotationText>
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>

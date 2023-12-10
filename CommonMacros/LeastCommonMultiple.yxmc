@@ -156,8 +156,32 @@ A=A
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
+        <MetaInfo connection="Output26">
+          <RecordInfo>
+            <Field name="InputID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Prime" source="(Multiple Sources)" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Output27">
+          <RecordInfo>
+            <Field name="InputID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="A" source="TextInput:" type="Int32" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Answer">
+          <RecordInfo>
+            <Field name="InputID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="Prime" source="(Multiple Sources)" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Rework">
+          <RecordInfo>
+            <Field name="InputID" source="RecordID: Starting Value=1" type="Int32" />
+            <Field name="A" source="Formula: if [isDivisible] then [A]/[Prime]&#xA;else null()&#xA;endif" type="Int64" />
+          </RecordInfo>
+        </MetaInfo>
       </Properties>
-      <EngineSettings Macro=".\PrimeFactorize.yxmc" />
+      <EngineSettings Macro="C:\Users\seanb\OneDrive\Documents\Alteryx data\AdventOfCode\2023\2023-12-08\BaseA\PrimeFactorize.yxmc" />
     </Node>
     <Node ToolID="33">
       <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
